@@ -21,9 +21,12 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
-- sdl2
-- netwire
+- sdl2 >= 2.5
 - OpenGL
+- linear
+- wires
+- clock
+- these
 
 library:
   source-dirs: src
